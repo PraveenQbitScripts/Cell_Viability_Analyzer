@@ -1,0 +1,27 @@
+# Cell Viability Analysis Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+cellpose[gui]>=4.0
+opencv-python-headless
+scikit-image
+pandas
+matplotlib
+
+# Deep learning framework
+torch
+torchvision
+
+# Progress bars and utilities
+tqdm
+numpy
+
+# Optional: For GPU acceleration (uncomment if needed)
+# torch[cuda]  # Use this instead of torch if you have CUDA
+# nvidia-ml-py3  # For GPU monitoring
+
+# Development dependencies (optional)
+# pytest
+# black
+# flake8
+# jupyter  # For notebook development
